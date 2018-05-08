@@ -20,7 +20,11 @@ function whileLoop(number){
 
 function doWhile(array) {
   
+  function maybeTrue() {
+    return Math.random() >= 0.5
+}
   do {
-  array.shift();
-} while (maybeTrue());
+    array.shift();
+} 
+  while (maybeTrue());
 }
