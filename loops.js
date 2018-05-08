@@ -22,8 +22,8 @@ function whileLoop(number){
 }
 
 function doWhile(array) {
-  do {
-    array.shift();
-} 
-  while (array.length > 0 && maybeTrue());
+  do  {
+    array.pop();
+  }
+  while ()
 }
