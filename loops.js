@@ -23,8 +23,8 @@ function whileLoop(number){
 
 function doWhile(array) {
   do  {
-    array.length();
+    array.pop();
   }
-  while (array.length > 0 && maybeTrue());
+  while (array.length > 0 && maybeTrue(false));
   return array;
 }
