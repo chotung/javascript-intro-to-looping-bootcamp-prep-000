@@ -20,6 +20,6 @@ function whileLoop(number){
 
 function doWhile(array) {
   do {
-  array.
+  array.shift();
 } while (maybeTrue());
 }
