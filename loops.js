@@ -26,5 +26,5 @@ function doWhile(array) {
   do {
     array.shift();
 } 
-  while (maybeTrue());
+  while (array.length > 0 && maybeTrue());
 }
